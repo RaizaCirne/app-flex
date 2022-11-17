@@ -3,8 +3,10 @@
 ## 1º Semestre
 ***
 - **Missão prática Nível 1**: 
-   - Introdução aos princípios fundamentais da computação;
-   - Base Computacional; 
-   - Fundamentos de hardware;
-   - Fundamentos de software de computadores;
+   <br>
+
+   - Introdução aos princípios fundamentais da computação
+   - Base Computacional
+   - Fundamentos de hardware
+   - Fundamentos de software de computadores
    - Paradigmas de Linguagem Python. 
