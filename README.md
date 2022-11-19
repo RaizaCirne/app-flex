@@ -2,7 +2,7 @@
 
 ## 1º Semestre
 ***
-- **Missão prática Nível 1**: 
+- **Missão 1**: 
    <br>
 
    - Introdução aos princípios fundamentais da computação
@@ -12,7 +12,7 @@
    - Paradigmas de Linguagem Python. 
    
   
- - **Missão prática Nível 2**: 
+- **Missão 2**: 
    <br>
 
    - Componentes de hardware
@@ -20,4 +20,15 @@
    - Python básico
    - Python estruturado
    - Representação de dados
+   
+- **Missão 3**: 
+   <br>
+
+   - Pensamento Computacional e Aplicações nas Áreas de Conhecimento
+   - Solução de Problema e Pensamento Computacional
+   - Lógica Digital
+   - Análise de Algoritmo
+   - Estruturas de Dados Básicas do Python
+   - Modularização e Uso de Bibliotecas do Python
+
 
