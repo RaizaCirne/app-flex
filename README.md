@@ -10,3 +10,14 @@
    - Fundamentos de hardware
    - Fundamentos de software de computadores
    - Paradigmas de Linguagem Python. 
+   
+  
+ - **Missão prática Nível 2**: 
+   <br>
+
+   - Componentes de hardware
+   - Noções de programação
+   - Python básico
+   - Python estruturado
+   - Representação de dados
+
