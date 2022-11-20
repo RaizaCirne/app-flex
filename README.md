@@ -30,5 +30,14 @@
    - Análise de Algoritmo
    - Estruturas de Dados Básicas do Python
    - Modularização e Uso de Bibliotecas do Python
+   
+- **Missão 4**: 
+   <br>
+
+   - Conceitos básicos de sistemas operacionais
+   - Arquitetura CISC X RISC 
+   - Python orientado a objetos
+   - Python em outros paradigmas
+   - Interface gráfica com Python
 
 
