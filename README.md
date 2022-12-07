@@ -39,5 +39,15 @@
    - Python orientado a objetos
    - Python em outros paradigmas
    - Interface gráfica com Python
+   
+   
+- **Missão prática Nível 5**: 
+   <br>
+
+   - Processos e gerência do processador
+   - Memória
+   - Sistema de arquivos
+   - Manipulação de dados.
+
 
 
