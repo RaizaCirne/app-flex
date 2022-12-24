@@ -2,7 +2,7 @@
 
 ## 1º Semestre
 ***
-- **Missão 1**: 
+- **Nível 1**: 
    <br>
 
    - Introdução aos princípios fundamentais da computação
@@ -12,7 +12,7 @@
    - Paradigmas de Linguagem Python. 
    
   
-- **Missão 2**: 
+- **Nível 2**: 
    <br>
 
    - Componentes de hardware
@@ -21,7 +21,7 @@
    - Python estruturado
    - Representação de dados
    
-- **Missão 3**: 
+- **Nível 3**: 
    <br>
 
    - Pensamento Computacional e Aplicações nas Áreas de Conhecimento
@@ -31,7 +31,7 @@
    - Estruturas de Dados Básicas do Python
    - Modularização e Uso de Bibliotecas do Python
    
-- **Missão 4**: 
+- **Nível 4**: 
    <br>
 
    - Conceitos básicos de sistemas operacionais
@@ -39,5 +39,15 @@
    - Python orientado a objetos
    - Python em outros paradigmas
    - Interface gráfica com Python
+   
+   
+- **Nível 5**: 
+   <br>
+
+   - Processos e gerência do processador
+   - Memória
+   - Sistema de arquivos
+   - Manipulação de dados.
+
 
 
