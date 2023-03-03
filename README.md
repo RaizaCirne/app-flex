@@ -49,5 +49,12 @@
    - Sistema de arquivos
    - Manipulação de dados.
 
+## 2º Semestre
+***
+- **Nível 1**: 
+   <br>
+   
+   - Implementação de um site voltado para o fornecimento de receitas culinárias, com a
+utilização apenas de HTML e CSS.
 
 
