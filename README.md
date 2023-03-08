@@ -1,6 +1,7 @@
-# Tecnólogo em Desenvolvimento Full Stack - ESTÁCIO DE SÁ
+# Tecnólogo em Desenvolvimento Full Stack :woman_student:
+## Universidade Estácio de Sá
 
-## 1º Semestre
+### 1º Semestre
 ***
 - **Nível 1**: 
    <br>
@@ -49,7 +50,7 @@
    - Sistema de arquivos
    - Manipulação de dados.
 
-## 2º Semestre
+### 2º Semestre
 ***
 - **Nível 1**: 
    <br>
