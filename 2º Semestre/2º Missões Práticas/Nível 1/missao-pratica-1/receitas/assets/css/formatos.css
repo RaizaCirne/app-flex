@@ -8,6 +8,11 @@ header {
   padding-bottom: 150px;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 main {
   text-align: center;
   width: 100%;
