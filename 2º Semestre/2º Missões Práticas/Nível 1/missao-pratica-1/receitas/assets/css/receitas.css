@@ -1,0 +1,23 @@
+.menu {
+  margin: 20px;
+  padding: 0px;
+}
+
+.flex-receitas {
+  display: flex;
+  gap: 10px;
+  margin: 0px 200px;
+}
+
+.receita {
+  background: #f9fad2;
+  padding: 150px 40px;
+}
+
+li {
+  text-align: left;
+}
+
+.lista {
+  place-content: center;
+}
