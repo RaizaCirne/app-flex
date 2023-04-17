@@ -96,7 +96,7 @@ Agradeço também aos professores que fizeram parte do meu processo de aprendiza
 
 - [Suzana Braga Lisboa](https://www.linkedin.com/in/suzanalisboa/)<br>
 - [Priscila Stuani](https://www.linkedin.com/in/priscilastuani/)<br>
-
+- [Flavio Henrique de Souza Almeida](https://www.linkedin.com/in/fl%C3%A1vio-a-a6315747/)<br>
 
 ## :sunglasses: Minhas Redes <a name="id09"></a>
 
