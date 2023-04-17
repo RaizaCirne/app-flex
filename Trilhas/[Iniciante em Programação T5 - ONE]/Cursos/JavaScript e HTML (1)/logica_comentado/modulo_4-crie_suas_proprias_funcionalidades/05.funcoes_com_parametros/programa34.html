@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<script>
+  // Toda função deve ser criada no início do arquivo
+
+  function pulaLinha() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+  // FUNÇÃO QUE RECEBE PARÂMETRO
+  // Quando o mostra recebe um parâmetro, esse parâmetro vai ser jogado dentro dessa variável ronaldo
+  // Ele vai fazer algo parecido com isso: ronal = "Flávio tem " + (ano - 1977) + " anos"
+  // esse parâmetro recebe o que passamos no mostra
+  // Se você quer que a função receba algo para poder trabalhar, você tem que indicar colocando o nome
+  // Colocamos ronaldo para brincar, mas o que estou passando para o mostra não é uma frase? 
+  // No próximo arquivo vamos colocar o parametro chamado frase
+  function mostra(ronaldo) {
+    document.write(ronaldo);
+  }
+
+  var ano = 2016;
+
+  mostra("Flávio tem " + (ano - 1977) + " anos");
+  pulaLinha();
+
+  mostra("Joaquim tem " + (ano - 1996) + " anos");
+  pulaLinha();
+
+  ano = 2017;
+
+  mostra("Barney tem " + (ano - 1976) + " anos");
+
+  mostra("Olá pessoal!");
+
+</script>
+

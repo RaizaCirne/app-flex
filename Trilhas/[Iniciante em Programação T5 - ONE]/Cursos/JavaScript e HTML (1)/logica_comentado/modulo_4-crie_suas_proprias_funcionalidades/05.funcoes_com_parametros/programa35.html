@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+
+<script>
+
+  function pulaLinha() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+  // FUNÇÃO QUE RECEBE PARÂMETRO
+  // Mudando de ronaldo para frase
+  function mostra(frase) {
+    document.write(frase);
+  }
+
+  mostra("Olá pessoal!"); 
+  // Nessa linha o frase está valendo "Olá pessoal!": frase = "Olá pesspal!"
+  // Quando ele executar a instrução da função, o frase está valendo "Olá pessoal!", então o document.write(frase) vai receber "Olá pessoal!"
+
+  var ano = 2016;
+
+  mostra("Flávio tem " + (ano - 1977) + " anos");
+  // Ao chamar o mostra ele pega o resultado dessa concatenação e por debaixo dos panos vai fazer: frase = "Flávio tem " + (ano - 1977) + " anos". 
+  // Se frase é uma variável e recebeu esse conteúdo: "Flávio tem " + (ano - 1977) + " anos"
+  // Quando damos document.write(frase) o js mete a mão dentro dela pra tirar o valor que ela tem. Então quando der document.write(frase) vai sair: Flávio tem 39 anos
+  pulaLinha();
+
+  mostra("Joaquim tem " + (ano - 1996) + " anos");
+  // Ao chamar o mostra de novo ele volta lá para a função, mas dessa vez o frase vai ser essa concatenação: "Joaquim tem " + (ano - 1996) + " anos". 
+  // Ele vai dizer que frase = "Joaquim tem " + (ano - 1996) + " anos"
+  // Frase nessa chamada da função está guardando esse valor "Joaquim tem " + (ano - 1996) + " anos"
+  // Ao dar document.write(frase), frase vai ser: Joaquim tem 20 anos
+  pulaLinha();
+
+  ano = 2017;
+
+  mostra("Barney tem " + (ano - 1976) + " anos");
+  
+</script>
+

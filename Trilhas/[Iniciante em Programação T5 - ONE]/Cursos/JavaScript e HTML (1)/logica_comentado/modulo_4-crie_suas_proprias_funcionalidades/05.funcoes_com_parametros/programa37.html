@@ -1,0 +1,61 @@
+<meta charset="UTF-8">
+<!--
+  SIMPLIFICANDO O CÓDIGO
+-->
+
+<script>
+
+  function pulaLinha() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  // Uma função pode ter como instrução a chamada de outra função.
+  function mostra(frase) {
+    document.write(frase);
+    pulaLinha(); // Já que queremos pular a linha sempre depois do mostra
+  }
+
+  // Quando chamamos o mostra ele vai fazer document.write(frase) exibindo o o meu parâmetro e na próxima instrução ele vai pular uma linha.
+
+  var ano = 2016;
+
+  mostra("Flávio tem " + (ano - 1977) + " anos");
+  // pulaLinha();
+
+  mostra("Joaquim tem " + (ano - 1996) + " anos");
+  // pulaLinha();
+
+  ano = 2017;
+
+  mostra("Barney tem " + (ano - 1976) + " anos");
+
+</script>
+
+<!--
+  Se comparamos com o código antigo vemos que o código ficou mais claro. 
+  Não precisamos ficar escrevendo o document.write() várias vezes e nem ficar pulando linha várias vezes.
+  
+  Guardamos a complexidade de pular linha em uma única função:
+   function pulaLinha() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+  
+   E o de exibir as informações pro usuário em um outra função. 
+    function mostra(frase) {
+    document.write(frase);
+    pulaLinha(); 
+  }
+
+  Qual é a diferença entre as funções?
+  - as duas tem 2 instruções
+  - a função pulaLinha não recebe parâmetro 
+  - a função mostra recebe parâmetro 
+
+  Se colocarmos o mostra sem nada:
+  mostra(); 
+  Exibe na tela undefined, que é indefinido. 
+  Quando chamo o mostra e não passo um parâmetro, vou chamar o mostra e qual vai ser o valor de frase? indefinido. 
+  Se eu passo um parâmtetro para o mostra: mostra("Calopsita!"), vai exibir na tela: Calopsita!
+-->
