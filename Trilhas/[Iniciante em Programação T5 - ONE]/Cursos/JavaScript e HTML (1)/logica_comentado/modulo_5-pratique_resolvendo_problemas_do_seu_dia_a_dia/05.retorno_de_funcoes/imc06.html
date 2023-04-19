@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+<!--
+  RETORNO DE FUNÇÃO
+-->
+
+<script>
+
+  function pulaLinha() {
+
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+  }
+
+  function calculaImc(altura, peso) {
+
+    var imc = peso / (altura * altura);
+    // mostra("O imc calculado é  " + imc); -> não posso deixar o mostra() fixo aqui, pois sempre que calcular o imc ele vai exibie a mensagem "O imc calculado é". 
+    return imc; // quando caculo o imc dentro da função calculaImc() e a variável imc guarda o resultado, a palavra return deixa disponível a esquerda da variável o resultado que foi calculado pela função.
+  }
+
+  var imcFlavio = calculaImc(1.71, 73); // A váriavel imcFlavio recebe o imc calculado pela função calculaImc()
+  var imcAmigo = calculaImc(1.72, 68); // Quando chamo o calculaImc passando a altura e o peso do meu amigo, a função calculaImc() vai retornar o calculo do imc, que é o retur imc para atribuir na variável imcAmigo();   
+  mostra(imcFlavio);
+  mostra(imcAmigo);
+</script>
