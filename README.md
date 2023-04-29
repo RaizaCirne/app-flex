@@ -20,19 +20,26 @@
 ##### <p>:white_check_mark: 2.1 [T5- Formação Iniciante em Programação](https://trello.com/b/S9dmOnQ0/t5-forma%C3%A7%C3%A3o-iniciante-em-programa%C3%A7%C3%A3o) <a target="_blank" href="https://trello.com/b/S9dmOnQ0/t5-forma%C3%A7%C3%A3o-iniciante-em-programa%C3%A7%C3%A3o"  title="Certificate">🏆</a></p>
 <br>
 
-#### <p>:white_square_button: 3. Aprenda lógica de programação :hourglass:</p>
+#### <p>:white_check_mark: 3. Aprenda lógica de programação <a target="_blank" href="https://www.alura.com.br/cursos-online-programacao/logica"  title="Certificate">🏆</a></p>
 
 ##### <p>:white_check_mark: 3.1 [5 dúvidas de quem quer iniciar na carreira de programação | Alura](https://www.alura.com.br/artigos/5-duvidas-de-quem-quer-iniciar-na-carreira-de-programacao) <a target="_blank" href="https://www.alura.com.br/artigos/5-duvidas-de-quem-quer-iniciar-na-carreira-de-programacao"  title="Certificate">🏆</a></p>
 ##### <p>:white_check_mark: 3.2 [Saiba tudo sobre o IDE - Integrated Development Environment](https://www.alura.com.br/artigos/o-que-e-uma-ide) <a target="_blank" href="https://www.alura.com.br/artigos/o-que-e-uma-ide"  title="Certificate">🏆</a></p>
 ##### <p>:white_check_mark: 3.2 [Saiba tudo sobre o IDE - Integrated Development Environment](https://www.alura.com.br/artigos/o-que-e-uma-ide) <a target="_blank" href="https://www.alura.com.br/artigos/o-que-e-uma-ide)"  title="Certificate">🏆</a></p>
 ##### <p>:white_check_mark: 3.3 [JavaScript e HTML: desenvolva um jogo e pratique lógica de programação](https://www.alura.com.br/conteudo/logica-programacao-javascript-html#:~:text=O%20curso%20JavaScript%20e%20HTML,estudar%20com%20a%20gente%20hoje!) <a target="_blank" href="https://www.alura.com.br/conteudo/logica-programacao-javascript-html#:~:text=O%20curso%20JavaScript%20e%20HTML,estudar%20com%20a%20gente%20hoje!/"  title="Certificate">🏆</a></p>
 ##### <p>:white_check_mark: 3.4 [Sublime, Atom ou VSCode: qual melhor editor de código? | Alura](https://www.alura.com.br/artigos/sublime-atom-vscode-qual-melhor-editor-de-codigo) <a target="_blank" href="https://www.alura.com.br/artigos/sublime-atom-vscode-qual-melhor-editor-de-codigo)"  title="Certificate">🏆</a></p>
-##### <p>:white_square_button: 3.5 [JavaScript e HTML: pratique lógica com desenhos, animações e um jogo](https://www.alura.com.br/conteudo/logica-programacao-pratica-com-desenho-animacoes-em-jogo#:~:text=O%20curso%20JavaScript%20e%20HTML,estudar%20com%20a%20gente%20hoje!) :hourglass:</p>
-##### <p>:white_large_square: 3.6 [VisualStudio Code: instalação, teclas de atalho, plugins e integrações](https://www.alura.com.br/artigos/visualstudio-code-instalacao-teclas-de-atalho-plugins-e-integracoes) </p>
+##### <p>:white_check_mark: 3.5 [JavaScript e HTML: pratique lógica com desenhos, animações e um jogo](https://www.alura.com.br/curso-online-logica-programacao-pratica-com-desenho-animacoes-em-jogo) <a target="_blank" href="https://www.alura.com.br/curso-online-logica-programacao-pratica-com-desenho-animacoes-em-jogo)"  title="Certificate">🏆</a></p>
+##### <p>:white_check_mark: 3.6 [VisualStudio Code: instalação, teclas de atalho, plugins e integrações](https://www.alura.com.br/artigos/visualstudio-code-instalacao-teclas-de-atalho-plugins-e-integracoes) <a target="_blank" href="https://www.alura.com.br/artigos/visualstudio-code-instalacao-teclas-de-atalho-plugins-e-integracoes)"  title="Certificate">🏆</a></p>
 <br> 
 
-#### <p>:white_large_square: 4. Crie suas primeiras páginas web </p>
-##### <p>:white_large_square: 4.1 [HTML, CSS e Javascript, quais as diferenças? | Alura Cursos Online](https://www.alura.com.br/artigos/html-css-e-js-definicoes) </p>
+#### <p>:white_square_button: 4. Crie suas primeiras páginas web :hourglass:</p>
+##### <p>:white_check_mark: 4.1 [ HTML, CSS e Javascript, quais as diferenças? | Alura Cursos Online](https://www.alura.com.br/artigos/html-css-e-js-definicoes) <a target="_blank" href="https://www.alura.com.br/artigos/html-css-e-js-definicoes)"  title="Certificate">🏆</a></p>
+##### <p>:white_large_square: 4.2 HTML5 e CSS3 parte 1: crie uma página da Web </p>
+##### <p>:white_large_square: 4.3 HTML5 e CSS3 parte 2: posicionamento, listas e navegação </p>
+##### <p>:white_large_square: 4.4 Centralizando um elemento com CSS </p>
+##### <p>:white_large_square: 4.5 HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas </p>
+##### <p>:white_large_square: 4.6 HTML5 e CSS3 parte 4: avançando no CSS </p>
+##### <p>:white_large_square: 4.7 CSS: Cansei de Ser Simples - Hipsters #09 </p>
+##### <p>:white_large_square: 4.8 Como Front-End utiliza o Figma </p>
 <br>
 
 ## Desenvolvimento Pessoal T5 - ONE
