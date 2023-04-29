@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+
+<!-- 
+  Gerando um número aleatório de 0 a 10.  
+-->
+
+<script>
+
+  function pulaLinha() {
+
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+  }
+
+  // Quando damos Math.random() * 10, ele anda uma casa decimal e vai dar sempre um número de 0 a 9.
+  // A função Math.round() arredonda o resultado de Math.random()
+  // Para gerar um número aleatório de 0 a 10 arredondando para cima, usamos Math.round(Math.randon() * 10);
+  // Ao arredondar para cima com Math.round(), quando o número gerado pelo Math.random() for 9. alguma coisa, será arredondado para 10. 
+  // Se quisesse um número de 0 a 1000 (mil), multiplicaria por 100 ->  Math.round(Math.random() * 100);
+  var numeroPensado = Math.round(Math.random() * 10);
+
+  var chute = parseInt(prompt("Digite seu chute"));
+
+  if (chute == numeroPensado) {
+
+    mostra("Você acertou!")
+
+  } else {
+
+    mostra("Você errou, o número pensado foi " + numeroPensado);
+
+  }
+
+</script>
