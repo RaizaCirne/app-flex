@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<!-- 
+  ESTRUTURA DE REPETIÇÃO WHILE 
+-->
+<script>
+
+  function pulaLinha() {
+
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+  }
+
+  var multiplicador = 1; // inicialização da variável 
+  while (multiplicador <= 10) {
+    mostra(7 * multiplicador);
+    multiplicador = multiplicador + 1; //incremento da variável 
+  }
+
+  mostra("FIM");
+
+</script>
