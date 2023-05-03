@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+<!-- 
+ Ler do teclado o número de vezes do total de familiares
+ -->
+<script>
+
+  function pulaLinha() {
+
+    document.write("<br>");
+    document.write("<br>");
+    
+  }
+
+  function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+
+  }
+
+  var totalFamiliares = parseInt(prompt("Quantidade de famiiares? "));
+
+  var numero = 1; // variável de incremento para ler a idade e incrementar a variável para saber quantas idades eu já li 
+
+  var totalIdades = 0; // começa de zero - não pode ficar dentro do while. 
+
+  while (numero <= totalFamiliares) {
+
+    var idade = parseInt(prompt("Informe idade do familiar"));
+    totalIdades = totalIdades + idade; //totalIdades guarda a idade que foi lida. acumula todas as idades
+    numero++;
+
+  }
+
+  mediaDasIdades = totalIdades / totalFamiliares;
+  mostra("A média da idade dos familiares é " + mediaDasIdades);
+  mostra("FIM");
+
+</script>
