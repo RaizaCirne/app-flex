@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+
+  function pulaLinha() {
+
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+  }
+
+  //1º loop do for fica responsável em criar a primeira, segunda e terceira linha
+  for (var linha = 1; linha <= 3; linha++) {
+    // Esse for vai ser responsável por repetir as colunas
+    for (var coluna = 1; coluna <= 10; coluna++) {
+      document.write("*");
+    }
+    pulaLinha();
+
+  }
+
+</script>
