@@ -1,10 +1,4 @@
 <meta charset="UTF-8">
-<!-- 
-Escrever na tela 3 linhas, onde cada linha vai ter 10 estrelas 
-**********
-**********
-********** 
--->
 
 <script>
 
@@ -20,7 +14,12 @@ Escrever na tela 3 linhas, onde cada linha vai ter 10 estrelas
   }
 
   for (var linha = 1; linha <= 3; linha++) {
-    mostra("**********");
+
+    for (var coluna = 1; coluna <= 10; coluna++) {
+      document.write("*");
+    }
+    pulaLinha();
+
   }
 
 </script>
