@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<input />
+<button>Compare com o meu segredo</button>
+
+<script>
+
+  var segredo = 5;
+
+  var input = document.querySelector("input");
+
+  // Testar se segredo é igual a o que foi digitado no input 
+  if (input.value == segredo) {
+
+    alert("Você ACERTOU!");
+
+  } else {
+    alert("Você ERROU!!!!!!");
+  }
+
+  // Recapitulando: 
+  // No mundo HTML tenho um campo de input que é onde eu digito coisas e tenho também um botão
+  // Quando eu carregar minha págica, quero que assim que eu digitar 5 quando eu clicar no botão em "Compare com meu segredo", tester se o número digitado é igual a 5, ou seja, igual ao segredo. 
+
+  // O programa está fazendo o teste se o que está na caixinha é igual ao segredo que é 5 antes de eu clicar no botão. 
+
+  // O problema é que o teste só pode ser feito quando eu clicar no botão, não pode ser feito assim que eu carrego a minha página. 
+
+  // Podemos pegar um código e guardar para chamar depois, que é através de funções. 
+  // Quero que o teste não seja executável assim que a página carrega. Veja arquivo adivinha_mais02.html
+
+</script>

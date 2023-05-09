@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+
+<input />
+<button>Compare com o meu segredo</button>
+
+<script>
+
+  var segredo = 5;
+
+  var input = document.querySelector("input");
+
+  // verifica está guardado para eu chamar depois, assim a página não exibe o alert assim que carrega 
+  function verifica() {
+    if (input.value == segredo) {
+
+      alert("Você ACERTOU!");
+
+    } else {
+      alert("Você ERROU!!!!!!");
+    }
+
+  }
+
+  // Quero que o verifica seja chamado quando eu clicar no botão 
+  // Associar a função verifica ao clique do botão
+
+  var button = document.querySelector("button");
+
+  // Como associar o button a execução do verifica()? 
+  button.onclick = verifica; // quero guardar o verifica dentro do onlick 
+
+  // se eu colocar verifica() ele executa a funcão 
+  // se eu colocar verifica tenho apenas acesso ao código da função 
+
+  // No mundo JavaScript consigo capturar os elementos do mundo HTML 
+  // Verificar o valor desses elementos 
+  // E associar a um click de botão a execução de uma função 
+
+</script>
