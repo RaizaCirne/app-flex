@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+
+<!-- 
+  Variável guarda uma lista de valores: tipo de dado array 
+  No JS a primeira posição do array é 0
+-->
+
+<input />
+<button>Compare com o meu segredo</button>
+
+<script>
+
+  var segredos = [5, 7, 10, 2];
+
+  var input = document.querySelector("input");
+  input.focus();
+
+  // Quando clica em verifica, ver se o que foi digitado está dentro da lista de segredos
+  // No verifica tenho que percorrer cada item do array pra saber se o input está lá dentro. 
+  // Começar de 0 e ir até o tamanho da minha lista - 1. A última posição é o tamanho da lista - 1. 
+  // Para percorrer cada item do array, fazer uma repetição -> arquivo adivinha_mais10.html
+  function verifica() {
+
+    if (input.value == segredos) {
+
+      alert("Você ACERTOU!");
+
+    } else {
+      alert("Você ERROU!!!!!!");
+    }
+
+    input.value = "";
+    input.focus();
+
+  }
+
+  var button = document.querySelector("button");
+
+  button.onclick = verifica;
+
+</script>

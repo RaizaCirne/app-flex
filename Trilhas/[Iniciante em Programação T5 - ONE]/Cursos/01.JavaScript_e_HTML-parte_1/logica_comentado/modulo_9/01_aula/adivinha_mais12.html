@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+
+<input />
+<button>Compare com o meu segredo</button>
+
+<script>
+
+  var segredos = [5, 7, 10, 2, 3];
+
+  var input = document.querySelector("input");
+  input.focus();
+
+  function verifica() {
+
+    var achou = false; // variável criada para se achou = true colocar mensagem de acertou, se errou, colocar no alert de errou sem ficar repetindo.
+
+    for (var posicao = 0; posicao < segredos.length; posicao++) {
+
+      if (input.value == segredos[posicao]) {
+        alert("Você ACERTOU!");
+        achou = true;
+        break;
+      }
+
+    }
+
+    if (achou == false) {
+
+      alert("Você errou!"); // Para não ficar exibindo a mensagem de erro a cada repetição, tiramos aquele else e colocamos esse alert aqui. 
+
+    }
+
+    input.value = "";
+    input.focus();
+
+  }
+
+  var button = document.querySelector("button");
+
+  button.onclick = verifica;
+
+</script>
