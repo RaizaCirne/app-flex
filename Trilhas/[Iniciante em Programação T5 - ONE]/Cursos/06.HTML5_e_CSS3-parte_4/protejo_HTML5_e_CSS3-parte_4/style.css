@@ -94,9 +94,6 @@ footer {
   margin: 20px 0 0;
 }
 
-main {
-}
-
 form {
   margin: 40px 0;
 }
@@ -227,6 +224,10 @@ th {
 
 .itens:first-child {
   font-weight: bold;
+}
+
+.itens::before {
+  content: "🟊";
 }
 
 .imagem-beneficios {
