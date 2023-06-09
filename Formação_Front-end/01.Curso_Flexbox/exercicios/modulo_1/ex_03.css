@@ -1,0 +1,23 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Todos os elementos ficam alinhados verticalmente no centro. */
+}
+
+/* 
+
+RESPOSTA:
+
+Devemos colocar align-items: center no pai, dessa forma todos os elementos ficam alinhados verticalmente no centro.
+
+O código ficaria assim:
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+align-items nós devemos colocar no pai. Dessa forma todos os seus filhos são afetados.
+
+*/
