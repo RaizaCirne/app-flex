@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 10 - Flexbox</title>
+  <link rel="stylesheet" href="ex_10.css">
+</head>
+
+<body>
+  <main class="flexContainer">
+    <div class="flexItem firstRow">1</div>
+    <div class="flexItem firstRow">1</div>
+    <div class="flexItem firstRow">1</div>
+    <div class="flexItem firstRow">1</div>
+  </main>
+</body>
+
+</html>
+
+<!--
+
+Diminuindo proporcionalmente os elementos
+
+Considere o código HTML abaixo.
+
+<main class="flexContainer">        
+  <div class="flexItem firstRow"></div>
+  <div class="flexItem firstRow"></div>
+  <div class="flexItem firstRow"></div>
+  <div class="flexItem firstRow"></div>
+</main>
+
+Considere agora que estejamos em um contexto flex. E que cada flexItem tem 200 px de width.
+
+CSS
+
+.flexContainer {
+  display: flex;
+}
+.flexItem {
+  width: 200px;
+}
+
+1) Quando a largura da tela chega a 800 px, os elementos mantém 200 px de largura cada um preenchendo todo o espaço da tela, porém, o que acontece com a largura dos flexItem quando diminuímos a tela para por exemplo 600 px.
+
+2) O que acontece com a largura deles também quando aplicamos o seguinte CSS no nosso código?
+
+.flexItem:first-child {
+  flex-shrink: 2;
+}
+
+Sugestão: Crie um arquivo HTML e CSS, escreva esse código e faça os testes, utilize também valores diferentes!
+
+Opinião do Instrutor:
+
+1) Quando diminuimos a tela para 600 px os flex-item diminuem seu tamanho igualmente entre si, ou seja, como a tela diminuiu 200 px e temos 4 flex items, cada um diminuiu 50 px. Sendo assim cada flex-item ficou com 150 px no fim.
+
+2) Quando colocamos flex-shrink: 2 no primeiro, ele diminui de forma diferente do que os outros elementos. As contas que ocorrem são semelhantes as que ocorrem no flex-grow.
+
+Primeiro de tudo o navegador pega o total de flex-shrink que nossos flex items tem, como temos por padrão flex-shrink: 1 nos flex items, a conta fica assim:
+
+2 + 1 + 1 + 1 = 5. Isso pois o primeiro colocamos flex-shrink:2.
+
+Como diminuímos 200 px do tamanho total, o navegador pega esse valor e divide pelo total de flex-shrink. Fica: 200 px : 5 = 40 px.
+
+Dessa forma o navegador tira 2 partes do primeiro elemento 200px - 80px = 120px e tira 1 parte dos demais, ou seja: 200 px - 40 px = 160 px.
+
+-->
