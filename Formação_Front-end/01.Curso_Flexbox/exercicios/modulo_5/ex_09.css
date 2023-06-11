@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+}
+
+.videoSobre-video {
+  flex-shrink: 0;
+}
+
+/* 
+
+RESPOSTA:
+
+Podemos simplesmente colocar a propriedade flex-shrink no elemento, por exemplo:
+
+.videoSobre-video {
+  flex-shrink: 0
+}
+
+Perfeito! Simplesmente colocamos flex-shrink: 0 no nosso elemento que não queremos que diminua. 
+
+*/
+
