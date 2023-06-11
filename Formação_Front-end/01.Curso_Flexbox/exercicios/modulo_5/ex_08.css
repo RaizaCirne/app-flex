@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  width: 1000px;
+}
+
+.primeiro {
+  width: 200px;
+  background: red;
+  flex-grow: 1;
+}
+
+.segundo {
+  width: 200px;
+  background: green;
+  flex-grow: 1;
+}
+
+/* 
+
+Opinião do Instrutor: 
+
+O que aconteceria é o seguinte:
+
+Considere o espaço vazio inicial: 600 px.
+
+Como os dois elementos tem flex-grow: 1, a soma de flex-grow que temos vai dar 1 + 1 = 2.
+
+O navegador pega esse espaço vazio e divide pelo número de flex-grow que temos: 600 px : 2 = 300 px.
+
+Agora ele distribui esse espaço para cada um dos elementos que colocamos flex-grow.
+
+Elemento 1: 300 px + 200 px = 500 px.
+
+Elemento 2: 300 px + 200 px = 500 px. 
+
+*/
