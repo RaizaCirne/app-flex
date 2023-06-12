@@ -1,0 +1,13 @@
+.item {
+  background: paleturquoise;
+  margin: 5px;
+  padding: 50px;
+}
+
+/* Propriedades para o elemento-pai */
+/*flex-direction*/
+
+.flex-container {
+  display: flex;
+  flex-direction: column; /* column: mesmo que row, mas de cima para baixo */
+}

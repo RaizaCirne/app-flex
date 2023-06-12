@@ -1,0 +1,13 @@
+.item {
+  background: red;
+  margin: 5px;
+  padding: 50px;
+}
+
+/* Propriedades para o elemento-pai */
+/*flex-direction*/
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap; /*nowrap (padrão): todos os flex items ficarão em uma só linha*/
+}

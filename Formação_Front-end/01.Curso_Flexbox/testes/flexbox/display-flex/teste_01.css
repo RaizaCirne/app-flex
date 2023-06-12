@@ -1,0 +1,11 @@
+.item {
+  background: blueviolet;
+  margin: 5px;
+  padding: 50px;
+}
+
+/* Propriedades para o elemento-pai */
+
+.flex-container {
+  display: flex;
+}

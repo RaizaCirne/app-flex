@@ -1,0 +1,13 @@
+.item {
+  background: yellow;
+  margin: 5px;
+  padding: 50px;
+}
+
+/* Propriedades para o elemento-pai */
+/*flex-direction*/
+
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse; /* row-reverse: direita para a esquerda em ltr, esquerda para a direita em rtl */
+}
