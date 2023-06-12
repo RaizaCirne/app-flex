@@ -1,0 +1,31 @@
+.cabecalhoPrincipal .container {
+  display: flex; /* Agora esse container é um flexbox/caixa flex */
+  align-items: center; /* Alinha verticalmente no centro*/
+  justify-content: space-between; /* Distribui o espaço que sobra entre os elementos */
+}
+
+.cabecalhoPrincipal-nav {
+  display: flex;
+}
+
+/*footer*/
+
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 75%;
+}
+
+.rodapePrincipal-contatoForm {
+  width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
