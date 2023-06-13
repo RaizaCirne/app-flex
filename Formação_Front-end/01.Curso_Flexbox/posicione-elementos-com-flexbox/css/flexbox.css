@@ -1,3 +1,5 @@
+/*cabeçalho*/
+
 .cabecalhoPrincipal .container {
   display: flex; /* Agora esse container é um flexbox/caixa flex */
   align-items: center; /* Alinha verticalmente no centro*/
@@ -6,6 +8,28 @@
 
 .cabecalhoPrincipal-nav {
   display: flex;
+}
+
+/*main - conteúdo principal*/
+
+.conteudoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.conteudoPrincipal-cursos-link {
+  width: 23%;
+}
+
+/*footer principal*/
+
+.rodapePrincipal-navMap-list {
+  display: flex;
+  /*flex-direction: column;
+  flex-wrap: wrap; Quando não couber mais no elemento pai e ultrapassar, quebra para a próxima coluna*/
+  height: 252px; /*Ultrapassou, não coube no elemento pai*/
+  flex-flow: column wrap; /*Atalho para flex-direction e flex-wrap: siga a direção column e depois faça um wrap*/
 }
 
 /*footer*/
@@ -19,7 +43,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 75%;
+  width: 70%;
+  margin-right: 5%;
 }
 
 .rodapePrincipal-contatoForm {
