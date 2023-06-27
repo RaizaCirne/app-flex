@@ -7,7 +7,7 @@
 }
 
 .cabecalhoPrincipal-nav {
-  display: flex;
+  display: flex; /* Para espaçar os elementos <a> </a> colocar um margin para eles. */
 }
 
 /*main - conteúdo principal*/

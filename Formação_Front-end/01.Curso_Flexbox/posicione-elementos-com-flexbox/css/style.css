@@ -239,7 +239,7 @@ body {
 
 	.cabecalhoPrincipal-nav-link {
 		width: auto;
-		margin: 0 0 0 10px;
+		margin: 0 0 0 10px; /* margin que está espaçando as tags <a> <\a> */
 	}
 
 	.rodapePrincipal-contatoForm {
