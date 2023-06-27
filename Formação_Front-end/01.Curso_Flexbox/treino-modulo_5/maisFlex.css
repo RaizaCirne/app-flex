@@ -1,0 +1,66 @@
+/* .flexContainer:last-child {
+  margin-top: 2em;
+} */
+
+.flexContainer {
+  margin-top: 2em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  height: 50px;
+  width: 50px;
+}
+div:nth-child(1) {
+  background-color: red;
+  width: 80px;
+  height: 80px;
+}
+div:nth-child(2) {
+  background-color: blue;
+}
+div:nth-child(3) {
+  background-color: green;
+}
+div:nth-child(4) {
+  background-color: yellow;
+}
+div:nth-child(5) {
+  background-color: pink;
+}
+div:nth-child(6) {
+  background-color: black;
+}
+div:nth-child(7) {
+  background-color: orange;
+}
+div:nth-child(8) {
+  background-color: silver;
+}
+/*fim do setup */
+
+.flexContainer {
+  /* Coloca o elemento um ao lado do outro */
+  display: flex;
+
+  /* Espaçamento igual entre os itens -> justify-content: space-between; */
+  /* Espaçamento igual ao redor dos itens -> justify-content: space-around; */
+  /* Alinha os itens ao centro ->  align-items: center; */
+
+
+  /* Mudando o flex-direction, muda os eixos*/
+  flex-direction: column;
+
+  /* Mudou a direção, agora alinha ao centro na horizontal */
+  align-items: center;
+
+  /* Antes alinhava horizontalmente, mudei o eixo do flex, agora alinha verticalmente*/
+  justify-content: space-around;
+
+  /* Colocamos a altura, se não o space-around fica sem espaço para distribuir os itens */
+  height: 600px;
+}
