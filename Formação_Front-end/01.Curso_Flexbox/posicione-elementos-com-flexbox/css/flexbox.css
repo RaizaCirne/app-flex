@@ -41,6 +41,29 @@ n= 2 -> 4x2 = 8 [8 + 1 = 9]
   margin-left: 0;
 }
 
+.videoSobre .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.videoSobre-sobre {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2; /* Pede para o flex-item cresça o tamanho que sobrou na página*/
+}
+
+.videoSobre-sobre-list {
+  flex-grow: 1; /* Jogou o botão para baixo para seguir fielmente o layout. Agora a lista está ocupando todo o espaço, ou seja, o espaço vazio que tinha embaixo foi incorporado a lista*/
+}
+
+.videoSobre-video {
+  flex-grow: 1; /* Vídeo aumentou um pouco porque distribuímos o espaço tanto pra ele quanto pro vantagens */
+  flex-shrink: 2; /* Vídeo diminui duas vezes mais do que os outros flex-items conforme diminui a tela */
+}
+
+/* flex-grow é dividido entre os flex-items definidos */
+
 /* FOOTER PRINCIPAL */
 
 .rodapePrincipal-navMap-list {
@@ -117,5 +140,19 @@ n= 2 -> 4x2 = 8 [8 + 1 = 9]
 
   .rodapePrincipal-contatoForm-fieldset {
     justify-content: center;
+  }
+
+  .cabecalhoPrincipal-nav-link-app {
+    order: -1;
+    /*Joga o elemento Nosso APP pra cima na versão mobile*/
+    /* Por padrão todos os flex-items tem ordem 0. Para deixar uma ordem que venha antes de todo mundo, colocar um número menor que 0. Por exemplo: -1
+    
+    Se quiser colocar depois de todo mundo colocar um item maior que 0. Por exemplo: 1*/
+  }
+  .videoSobre .container {
+    flex-direction: column;
+  }
+  .videoSobre-video {
+    margin: 0 auto; /* Para centralizar vídeo, tendo em vista que um iframe é display block*/
   }
 }
