@@ -1,4 +1,4 @@
-/*cabeçalho*/
+/* CABEÇALHO */
 
 .cabecalhoPrincipal .container {
   display: flex; /* Agora esse container é um flexbox/caixa flex */
@@ -10,19 +10,38 @@
   display: flex; /* Para espaçar os elementos <a> </a> colocar um margin para eles. */
 }
 
-/*main - conteúdo principal*/
+/* MAIN - CONTEÚDO PRINCIPAl */
 
 .conteudoPrincipal-cursos {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-wrap: wrap; /* Seus filhos li quebram para a próxima linha porque não teve tamanho*/
+  /* justify-content: space-between;  Não ajuda, temos que fazer contas*/
 }
 
 .conteudoPrincipal-cursos-link {
   width: 23%;
+  /* Definimos o temanho porque os itens ficaram minúsculos. O elemento li não estava conseguindo calcular o tamanho dele porque os links (tag a) estão com position: absolute; O position absolute tira os elementos do fluxo da página. Ao tirar o elemento a, esse link do fluxo o pai dele que é o li não consegue mais calcular o tamanho. Por isso definimos um tamanho. */
+  margin: 1%;
 }
 
-/*footer principal*/
+/* Retirar margem a direita dos elementos que são múltiplos de 4 [4, 8, 12, 16] com o nth-child(4n) */
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+  margin-right: 0;
+}
+
+/* Quero retirar também a margem a esqueda dos elementos que vem depois dos múltiplos de 4, já que vem logo depois, basta colocar o (4n+1)
+
+O primeiro elemento também entra porque começa com 0.
+
+n= 0 -> 4x0 = 0 [0 + 1 = 1] 
+n= 1 -> 4x1 = 4 [4 + 1 = 5] 
+n= 2 -> 4x2 = 8 [8 + 1 = 9] 
+*/
+.conteudoPrincipal-cursos-link:nth-child(4n + 1) {
+  margin-left: 0;
+}
+
+/* FOOTER PRINCIPAL */
 
 .rodapePrincipal-navMap-list {
   display: flex;
@@ -32,7 +51,7 @@
   flex-flow: column wrap; /*Atalho para flex-direction e flex-wrap: siga a direção column e depois faça um wrap*/
 }
 
-/*footer*/
+/* FOOTER */
 
 .rodapePrincipal-patrocinadores .container {
   display: flex;
@@ -55,4 +74,16 @@
   /* Os filhos dessa div que são o input e o button pegam o mesmo tamanho, alinha o tamanho/altura dos elementos*/
   /* Colocando o display:flex no pai, os filhos ficam com a mesma altura, o mesmo height*/
   display: flex; /* Deixa o botão (button) do mesmo tamanho do input */
+}
+
+/* PARTE MOBILE */
+
+.cabecalhoPrincipal .container {
+  flex-direction: column;
+  align-items: initial; /* Mudou a direção para column, então colocamos o valor inicial do ilign-items esticadão sem alinhar no centro*/
+  text-align: center; /* Alinhar apenas o texto ao centro*/
+}
+
+.cabecalhoPrincipal-nav {
+  flex-direction: column;
 }
