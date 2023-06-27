@@ -1,0 +1,10 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Colocar todo espaço entre os elementos como vimos antes usando justify-content: space-between.*/
+}
+
+.item {
+  background: pink;
+  margin: 15px;
+  padding: 40px;
+}

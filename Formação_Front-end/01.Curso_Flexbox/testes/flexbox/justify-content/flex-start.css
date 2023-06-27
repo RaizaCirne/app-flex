@@ -1,0 +1,10 @@
+.flex-container {
+  display: flex;
+  justify-content: flex-start; /* Colocar todo espaço à direita, jogando o conteúdo para esquerda com justify-content: flex-start (que é o padrão). */
+}
+
+.item {
+  background: pink;
+  margin: 15px;
+  padding: 40px;
+}
