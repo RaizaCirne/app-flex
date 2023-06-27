@@ -28,7 +28,7 @@
   display: flex;
   /*flex-direction: column;
   flex-wrap: wrap; Quando não couber mais no elemento pai e ultrapassar, quebra para a próxima coluna*/
-  height: 252px; /*Ultrapassou, não coube no elemento pai*/
+  height: 252px; /* Tem que dar uma altura para o elemento ir para o lado - Ultrapassou, não coube no elemento pai*/
   flex-flow: column wrap; /*Atalho para flex-direction e flex-wrap: siga a direção column e depois faça um wrap*/
 }
 
@@ -52,5 +52,7 @@
 }
 
 .rodapePrincipal-contatoForm-fieldset {
-  display: flex;
+  /* Os filhos dessa div que são o input e o button pegam o mesmo tamanho, alinha o tamanho/altura dos elementos*/
+  /* Colocando o display:flex no pai, os filhos ficam com a mesma altura, o mesmo height*/
+  display: flex; /* Deixa o botão (button) do mesmo tamanho do input */
 }
