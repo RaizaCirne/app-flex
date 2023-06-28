@@ -108,3 +108,9 @@ div:nth-child(8) {
 /* O primeiro elemento pegou 3 pedaços e ficou maior que todo mundo  */
 /* O segundo, terceiro e quarto elemento pegaram 2 pedaços cada */
 /* O primeiro fica maior que todos porque pegou 3 pedaços do espação vazio */
+
+
+/* OBS: 
+Por padrão o flex-grow é 0. Significa que os elementos não vão crescer automaticamente, vão se manter no tamanho original. Se eu colocar um flex-grow diferente de 0.. 1, 2 ou algo do tipo, ele vai pegar o espaço vazio e distribuir entre os elementos fazendo a continha 
+
+flex-grow: 0; fica normal, não se mexe, não faz nada */
