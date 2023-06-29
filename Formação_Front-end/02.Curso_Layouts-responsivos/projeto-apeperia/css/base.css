@@ -1,3 +1,40 @@
+:root {
+  --branco: #fff;
+  --azul-claro: #dfe3e5;
+  --vermelho-forte: #b72e2e;
+  --cinza-escuro: #4f4c4c;
+  --cinza-claro: #f7f4f4;
+  --cinza-medio: #d9d9d9;
+
+  --fonte-link: #0084ff;
+  --fonte-cinza: #666;
+  --borda-cabecalho-mobile: #103d4a;
+  --bg-rodape: #333;
+  --bg-chamada-mobile: #00161c;
+
+  --planos-cartao-start: #56ccf2;
+  --planos-cartao-ultra: #b04cd9;
+  --planos-cartao-mega: #e33b3b;
+
+  --montserrat: "Montserrat", sans-serif;
+}
+
 body {
   font-family: "Opens Sans", sans-serif;
+}
+
+.container {
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+.botao {
+  text-align: center; /*texto alinhado no meio*/
+  display: block; /*display diferente de inline, pois com inline não daria pra mudar tamanho da tag*/
+  width: 100%; /*ocupar 100% da largura*/
+  max-width: 350px; /*limitar largura pra quando ela ficar maior/ter mais espaço na tela, não ultrapassar certo tamanho.*/
+  box-sizing: border-box; /*o tamanho do elemento vai ser 100% o total que ele tem e a largura maxima vai ser 350px independente se ele tem padding ou se ele tem border. Garantir que o elemento mantenha sempre 350px de largura máxima.*/
+  padding: 1rem 2rem; /*1 rem em cima e embaixo, e 2rem a direita e a esquerda. */
+  border: 1px solid var(--branco);
+  border-radius: 5px;
 }
