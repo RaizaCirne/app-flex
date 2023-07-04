@@ -1,5 +1,5 @@
 .pessoas {
   display: flex;
-  padding-top: 3rem;
   justify-content: space-around; /* Espaço entre todas as caixas */
+  padding-top: 3rem;
 }

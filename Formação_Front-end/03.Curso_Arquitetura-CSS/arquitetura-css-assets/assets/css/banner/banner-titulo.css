@@ -2,8 +2,8 @@
   color: #fdfdfd;
   font-family: "Pacifico", cursive; /* cursive: como se fosse escrita a mão*/
   font-size: 5.0625rem;
-  position: absolute; /* Posicionamento absoluto na tela. Fica absoluto em relação a página */
   left: 50%; /* Alinhamento a esquerda para centralizar */
+  position: absolute; /* Posicionamento absoluto na tela. Fica absoluto em relação a página */
   top: 50%; /* Para conseguir fazer alinhamento tanto horizontal quanto vertical */
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
   text-align: center;

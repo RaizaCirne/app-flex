@@ -1,11 +1,11 @@
 .pessoa__imagem {
+  background-position: center; /*fundo deve ser centralizado ao centro*/
+  background-repeat: no-repeat; /* O fundo não deve repetir  */
   background-size: cover; /* imagem deve cobrir todo o nosso fundo. cover: ocupa tudo  */
-  width: 300px;
   border-radius: 100%;
   height: 300px;
-  background-position: center; /*fundo deve ser centralizado ao centro*/
   margin: 0 auto;
-  background-repeat: no-repeat; /* O fundo não deve repetir  */
+  width: 300px;
 }
 
 .pessoa__imagem--roberta {
