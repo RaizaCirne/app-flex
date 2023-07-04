@@ -1,0 +1,4 @@
+.banner__imagem {
+  height: calc(100vh - 72px); /* 100vh é o tamanho da altura da janela do navegador, mas temos que fazer um cálculo para desconsiderar o tamanho do cabeçalho que tem 72px de altura*/ 
+  width: 100%;
+}
