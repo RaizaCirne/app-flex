@@ -1,5 +1,4 @@
 console.log("Trabalhando com atribuição de variáveis");
-const idade = 29;
 // let nome = "Ricardo";
 const primeiroNome = "Ricardo";
 const sobrenome = "Bugan";
@@ -9,10 +8,18 @@ const sobrenome = "Bugan";
 // console.log(nome, sobrenome);
 console.log(`Meu nome é ${primeiroNome} ${sobrenome}`);
 
+// const -> variável não muda
+// let -> variável que pode mudar, varia
+// Boa prática - usar constante para não ocorrer muitos erros no código. Reduzir ao máximo let
+
+let contador = 0;
+contador = contador + 1;
+
 // subscrever - escrever por cima
 const nomeCompleto = primeiroNome + sobrenome;
 console.log(nomeCompleto);
 
-// const -> variável não muda
-// let -> variável que pode mudar, varia
-// Boa prática - usar constante para não ocorrer muitos erros no código. Reduzir ao máximo let
+let idade; //declarando variável
+idade = 26; //atribuindo valor
+idade = idade + 1; // reatribuindo valor
+console.log(idade);
