@@ -4,5 +4,7 @@ console.log("Trabalhando com variáveis");
 
 // const -> palavra reservada
 const idade = 29; // variável do tipo número
-const nome = "Ricardo"; // variável do tipo texto
-let ano = 2020; // let -> outra forma de declarar variável 
+const nome = "Ricardo"; // variável do tipo texto/string
+
+// não fazer
+//mes = "Janeiro";
