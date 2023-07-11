@@ -4,20 +4,8 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "8-Loops",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\aulas\\projeto_atual\\8-loops.js"
-    },
-    {
-      "type": "node-terminal",
-      "name": "JavaScript Debug Terminal",
-      "request": "launch",
-      "cwd": "${workspaceFolder}"
-    },
-    {
-      "type": "node",
-      "name": "Run Current File",
-      "request": "launch",
       "program": "${workspaceFolder}\\aulas\\projeto_atual\\8-loops.js"
     }
   ]
