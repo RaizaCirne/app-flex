@@ -17,7 +17,12 @@
   
       <form class="form" action="">
         <input class="form-input" type="text">
-        <button class="form-button"> Novo Item </button>
+        <button class="form-button" data-form-button> Novo Item </button>
+        <!-- 1º Percorrer o DOM para selecionar o botão -->
+        <!-- 
+          - Data attributes -> Selecionamos o elemento botão/novaTarefa com o seletor data-attributes e demos o nome de data-form-button. 
+          - Nesse projeto, o data attributes está servindo como separador de responsabilidades 
+          -->
       </form>
 
       <ul class="list">
@@ -28,5 +33,12 @@
       </li>
       </ul>
     </div>
+
+    <script src="/listaDeTarefas.js"></script>
+<!-- 
+    - Depois que terminar de ler o html, o navegador vai ler o JavaScript
+    - O navegador lê o html de cima para baixo 
+    - Colocar o script sempre no final para evitar erros 
+-->
 </body>
 </html>
