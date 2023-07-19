@@ -1,7 +1,7 @@
 const novaTarefa = document.querySelector('[data-form-button]');
 novaTarefa.addEventListener('click', () => {
   console.log('fui clicado')}
-  );
+);
 
 
 // OBJETIVO: A primeira coisa é lidar com o botão, porque ele vai gerar a tarefa. Para isso, percorrer o DOM. 
