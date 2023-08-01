@@ -82,3 +82,8 @@ novaTarefa.addEventListener('click', criarTarefa);
 // Então esse nó OU elemento filho vai sempre aparecer por último na lista 
 
 // Adicionamos as tarefas usando o appendChild 
+// Existem outros métodos que removem e alteram elementos do DOM trabalhando com nós
+//Já conseguimos adicionar as tarefas
+// Vamos adicionar mais duas funcionalidades depois: 
+// 1) Marcar a terefa como concluída 
+// 2) Excluir a tarefa 
