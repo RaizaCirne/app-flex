@@ -1,0 +1,35 @@
+body {
+  background-color: #2d405e;
+}
+
+.balao {
+  position: relative;
+  width: 200px;
+  margin: 50px;
+  padding: 60px;
+  background-color: transparent;
+  border: 0.1px solid white;
+  border-radius: 25px;
+  color: white;
+}
+
+.balao::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 20px 15px 0px 10px;
+  border-color: white transparent transparent transparent;
+  bottom: -25px;
+  left: calc(50% - 90px);
+}
+
+.balao::after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 0;
+  border-color:  transparent transparent transparent;
+  bottom: -13px;
+  left: calc(50% - 15px);
+}
+
