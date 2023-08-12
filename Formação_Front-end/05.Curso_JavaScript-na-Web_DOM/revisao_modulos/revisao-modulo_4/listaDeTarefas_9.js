@@ -14,7 +14,7 @@ const criarTarefa = (evento) => {
 
   tarefa.innerHTML = conteudo;
 
-  tarefa.appendChild(BotaoConlui()); // li pai do botão
+  tarefa.appendChild(BotaoConlui()); 
   lista.appendChild(tarefa);
   input.value = " "; 
 }
@@ -34,6 +34,3 @@ const BotaoConlui = () => {
 
   return botaoConlui
 }
-
-// Aula para iniciar
-// segunda-feira
