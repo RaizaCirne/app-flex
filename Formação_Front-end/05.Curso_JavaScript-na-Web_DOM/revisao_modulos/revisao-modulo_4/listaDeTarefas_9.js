@@ -14,7 +14,7 @@ const criarTarefa = (evento) => {
 
   tarefa.innerHTML = conteudo;
 
-  tarefa.appendChild(BotaoConlui()); 
+  tarefa.appendChild(BotaoConlui()); // li pai do botão
   lista.appendChild(tarefa);
   input.value = " "; 
 }
@@ -26,19 +26,20 @@ novaTarefa.addEventListener('click', criarTarefa);
 const BotaoConlui = () => {
   const botaoConlui = document.createElement('button');
 
-  botaoConlui.innerText = 'concluir';
   botaoConlui.classList.add('check-button');
-  botaoConlui.addEventListener('click', concluirTarefa)
+  botaoConlui.innerText = 'concluir';
+  botaoConlui.addEventListener('click', concluirTarefa);
 
   return botaoConlui
 }
 
 const concluirTarefa = (evento) => {
-  const botaoConclui = evento.target // Descubro elemento que cliquei através do target
-  const tarefaCompleta = botaoConclui.parentElement // chamei a variável tarefaCompleta pra pegar o pai do elemento
 
-  tarefaCompleta.classList.toogle('done') // método toggle executa a classe css a partir do momento que eu clicar no botão
-  //  toggle devolve um boleano verdadeiro ou falso.
+  const botaoConclui = evento.target
+
+  const tarefaCompleta = botaoConclui.parentElement
+
+  tarefaCompleta.classList.toggle('done')
 }
 
 // OBJETIVO 1: Tirar marcação de "fui clicado" do console e dar um efeito na tarefa
