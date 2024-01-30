@@ -9,12 +9,12 @@
 <body>
   <main>
     <div>
-      <img src="assets/images/neutro.png" alt="Calculadora Flex">
-      <form>
-        <input type="text" name="" placeholder="Etanol"  id="textEtanol" size="8">
-        <input type="text" name="" placeholder="Gasolina" id="textGasolina" size="8">
-        <input class="input-button" type="button" value="Vantagem">
-        <input class="input-button" type="button" value="Limpar">
+      <img src="assets/images/neutro.png" alt="Calculadora Flex" id="imagens">
+      <form name="frmFlex">
+        <input type="text" placeholder="Etanol"  name="valorEtanol" size="8">
+        <input type="text" placeholder="Gasolina" name="valorGasolina" size="8">
+        <input class="input-button" type="button" value="Vantagem" onclick="calcular()">
+        <input class="input-button" type="reset" value="Limpar" onclick="resetar()">
       </form>
     </div>
   </main>
