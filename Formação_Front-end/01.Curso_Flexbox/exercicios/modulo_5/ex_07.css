@@ -1,8 +1,0 @@
-.container {
-  display: flex;
-}
-
-.flex-item {
-  background: blueviolet;
-  flex-grow: 1;
-}
