@@ -2,37 +2,48 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0; 
-  background-color: #ddd;
+
+> body {
+  background-image: url(/assets/images/posto-gasolina.jpg);
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+
+ 
 
   > main {
-
     > div {
       align-items: center;
-      width: 35%;
+      // width: 35%;
       display: flex;
       flex-direction: column;
       margin: 5rem auto;
       padding: 2rem 2rem;
 
-      @media screen and (min-width:320px) {
-        width: 100%;
-      }
-      @media screen and (min-width:768px) {
-        width: 100%;
-      }
+      // @media screen and (min-width:375px) {
+      //   width: 100%;
+      // }
+      // @media screen and (min-width:768px) {
+      //   width: 100%;
+      // }
 
       > img {
         display: block;
+        width: 400px;
+  
       }
       
       > form {
-        margin: .3rem auto;
-        
+        text-align: center;
+
         > input {
           border-radius: .15rem;
           font-size: .7rem;
-          margin: .2rem auto;
-          padding: .3rem;
+          margin: .4rem 0;
+          padding: .3rem 1.1rem;
+          
         }
 
         > .input-button {
@@ -45,5 +56,5 @@
       }
     }
   }
-  
+}
 }
