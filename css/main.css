@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+}
+* > main > div {
+  align-items: center;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+  padding: 2rem 2rem;
+}
+@media screen and (min-width: 320px) {
+  * > main > div {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  * > main > div {
+    width: 100%;
+  }
+}
+* > main > div > img {
+  display: block;
+}
+* > main > div > form {
+  margin: 0.3rem auto;
+}
+* > main > div > form > input {
+  border-radius: 0.15rem;
+  font-size: 0.7rem;
+  margin: 0.2rem auto;
+  padding: 0.3rem;
+}
+* > main > div > form > .input-button {
+  font-weight: normal;
+}
+* > main > div > form > .input-button:hover {
+  background-color: #ccc7c7;
+}/*# sourceMappingURL=main.css.map */
