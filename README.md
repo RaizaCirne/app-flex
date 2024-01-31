@@ -28,8 +28,6 @@ Utilizar estruturas condicionais do JavaScript e manipular o DOM para criar o ap
 
 ## :trophy: Aprendizado <a name="#id04"></a>
 
-<br />
-
 #### Construído com:
 
 <br />
