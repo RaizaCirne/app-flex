@@ -1,4 +1,4 @@
-var etanol, gasolina; 
+let etanol, gasolina; 
 
 function calcular() {
   // Pegando valor do input e armazenando nas variáveis
