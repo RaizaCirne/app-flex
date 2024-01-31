@@ -10,7 +10,7 @@
 - [Tecnologias utilizadas](#id08)
 - [Pré-requisitos](#id09)
 - [Procedimentos de instalação](#id010)
-- [Autora](#id011)
+- [Informações](#id011)
 
 # Bem-vindo! 👋 <a name="id01"></a>
 
@@ -106,7 +106,7 @@ Abrir pasta no editor de código.
 
 <br />
 
-# :sunglasses: Autora <a name="id011"></a>
+# :sunglasses: Informações <a name="id011"></a>
 
 <br />
 
