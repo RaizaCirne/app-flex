@@ -1,57 +1,75 @@
+@import 'mixins';
+
+$gray: #ccc7c7;
+$gutter: 0;
+
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; 
+  @include border-box;
+  margin: $gutter;
+  padding: $gutter; 
 
 > body {
   background-image: url(/assets/images/posto-gasolina.jpg);
-  opacity: 0.8;
-  background-repeat: no-repeat;
   background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  // height: 490px;
+  opacity: 0.8;
+  width: 100vw;
+  
   
 
- 
+  .container {
+    max-width: 100%;
+    // posicionando div no centro da tela
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    img {
+      display: block;
+      width: 800px;
 
-  > main {
-    > div {
-      align-items: center;
-      // width: 35%;
-      display: flex;
-      flex-direction: column;
-      margin: 5rem auto;
-      padding: 2rem 2rem;
-
-      // @media screen and (min-width:375px) {
-      //   width: 100%;
-      // }
-      // @media screen and (min-width:768px) {
-      //   width: 100%;
-      // }
-
-      > img {
-        display: block;
-        width: 400px;
-  
+      @include d(m) {
+        width: 310px;
+        margin-bottom: .2rem;
       }
-      
-      > form {
-        text-align: center;
 
-        > input {
-          border-radius: .15rem;
+      @include d(t) {
+        width: 450px;
+        margin-bottom: .2rem;
+      }
+    }
+
+    form {
+      input {
+        border-radius: .15rem;
+        font-size: 1.5rem;
+        margin: .2rem .1rem 0 .1rem;
+        padding: 1rem;
+        width: 24.22%;
+
+        @include d(m) {
           font-size: .7rem;
-          margin: .4rem 0;
-          padding: .3rem 1.1rem;
-          
+          margin: $gutter;
+          padding: .4rem;
+          width: 23.8%;
         }
-
-        > .input-button {
-          font-weight: normal;
+        
+        @include d(t) {
+          font-size: .9rem;
+          margin: $gutter;
+          padding: .4rem;
+          width: 24.3%;
         }
+      }
 
-        > .input-button:hover {
-          background-color: #ccc7c7;
+      .input-button {
+        border-radius: .15rem;
+        &:hover {
+          background-color: $gray;
+          font-weight: bold;
         }
       }
     }

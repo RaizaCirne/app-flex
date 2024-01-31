@@ -1,38 +1,69 @@
 * {
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 * > body {
   background-image: url(/assets/images/posto-gasolina.jpg);
-  opacity: 0.8;
-  background-repeat: no-repeat;
   background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  opacity: 0.8;
+  width: 100vw;
 }
-* > body > main > div {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin: 5rem auto;
-  padding: 2rem 2rem;
+* > body .container {
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-* > body > main > div > img {
+* > body .container img {
   display: block;
-  width: 400px;
+  width: 800px;
 }
-* > body > main > div > form {
-  text-align: center;
+@media only screen and (max-width: 767px) {
+  * > body .container img {
+    width: 310px;
+    margin-bottom: 0.2rem;
+  }
 }
-* > body > main > div > form > input {
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  * > body .container img {
+    width: 450px;
+    margin-bottom: 0.2rem;
+  }
+}
+* > body .container form input {
   border-radius: 0.15rem;
-  font-size: 0.7rem;
-  margin: 0.4rem 0;
-  padding: 0.3rem 1.1rem;
+  font-size: 1.5rem;
+  margin: 0.2rem 0.1rem 0 0.1rem;
+  padding: 1rem;
+  width: 24.22%;
 }
-* > body > main > div > form > .input-button {
-  font-weight: normal;
+@media only screen and (max-width: 767px) {
+  * > body .container form input {
+    font-size: 0.7rem;
+    margin: 0;
+    padding: 0.4rem;
+    width: 23.8%;
+  }
 }
-* > body > main > div > form > .input-button:hover {
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  * > body .container form input {
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0.4rem;
+    width: 24.3%;
+  }
+}
+* > body .container form .input-button {
+  border-radius: 0.15rem;
+}
+* > body .container form .input-button:hover {
   background-color: #ccc7c7;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
