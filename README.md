@@ -50,6 +50,10 @@ Utilizar estruturas condicionais do JavaScript e manipular o DOM para criar o ap
 
 # :camera_flash: Screenshots <a name="id06"></a>
 
+## :video_camera: Video
+
+https://github.com/RaizaCirne/app-flex/assets/109912543/41c4c6eb-770d-4e05-92a4-f4916585bf3f
+
 ## :desktop_computer: Desktop design
 
 ![Design preview desktop](./assets/images/calculadora-desktop.png)
@@ -64,7 +68,7 @@ Utilizar estruturas condicionais do JavaScript e manipular o DOM para criar o ap
 
 <br />
 
-- Para acessar o site [Clique aqui](#)
+- Para acessar o site [Clique aqui](https://lnkd.in/d3bWPFGc)
 
 <br />
 
@@ -110,7 +114,7 @@ Abrir pasta no editor de código.
 
 <br />
 
-- Personal Page - [Raíza Cirne Braz](#)
+- Personal Page - [Raíza Cirne Braz](https://lnkd.in/d3bWPFGc)
 - Frontend Mentor - [@RaizaCirne](https://www.frontendmentor.io/profile/RaizaCirne)
 - GitHub - [RaizaCirne](https://github.com/RaizaCirne)
 - LinkedIn - [Raíza Cirne Braz](https://www.linkedin.com/in/ra%C3%ADzacirne/)
