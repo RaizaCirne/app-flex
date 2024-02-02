@@ -68,7 +68,7 @@ https://github.com/RaizaCirne/app-flex/assets/109912543/41c4c6eb-770d-4e05-92a4-
 
 <br />
 
-- Para acessar o site [Clique aqui](https://lnkd.in/d3bWPFGc)
+- Para acessar o site [Clique aqui](https://radiant-liger-f52340.netlify.app/)
 
 <br />
 
@@ -114,7 +114,7 @@ Abrir pasta no editor de código.
 
 <br />
 
-- Personal Page - [Raíza Cirne Braz](https://lnkd.in/d3bWPFGc)
+- Personal Page - [Raíza Cirne Braz](https://radiant-liger-f52340.netlify.app/)
 - Frontend Mentor - [@RaizaCirne](https://www.frontendmentor.io/profile/RaizaCirne)
 - GitHub - [RaizaCirne](https://github.com/RaizaCirne)
 - LinkedIn - [Raíza Cirne Braz](https://www.linkedin.com/in/ra%C3%ADzacirne/)
